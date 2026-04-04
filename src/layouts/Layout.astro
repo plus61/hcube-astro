@@ -6,6 +6,7 @@ interface Props {
   description?: string;
   bodyClass?: string;
   canonical?: string;
+  pageTitle?: string;
 }
 
 const {
@@ -13,6 +14,7 @@ const {
   description = '茅ヶ崎・浜見平の商業施設【BRANCH2】にて、完全ワンストップ型教育施設として次世代のお子様を持つ皆様に嬉しい様々なサービスコンテンツで「お子様の大切な放課後をプロデュース」いたします。',
   bodyClass = '',
   canonical = '',
+  pageTitle = '',
 } = Astro.props;
 
 const canonicalUrl = canonical || `https://h-cube.academy${Astro.url.pathname}`;
@@ -49,7 +51,7 @@ const canonicalUrl = canonical || `https://h-cube.academy${Astro.url.pathname}`;
 								<div class="elementor-element elementor-element-5e94f185 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="5e94f185" data-element_type="widget" data-widget_type="theme-site-logo.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.6.2 - 04-04-2022 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="https://h-cube.academy">
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="/">
 							<img width="134" height="134" src="/images/home/img_0.svg" class="attachment-full size-full" alt="" loading="lazy">								</a>
 															</div>
 				</div>
@@ -219,23 +221,23 @@ ul.elementor-nav-menu--dropdown a, ul.elementor-nav-menu--dropdown a:focus, ul.e
   .elementor-nav-menu--dropdown-tablet_extra .elementor-menu-toggle, .elementor-nav-menu--dropdown-tablet_extra .elementor-nav-menu--dropdown { display: none; }
 }
 </style>			<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
-				<ul id="menu-1-860a59e" class="elementor-nav-menu" data-smartmenus-id="17752873562206187"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2639"><a href="https://h-cube.academy/#reason" aria-current="page" class="elementor-item elementor-item-anchor menu-link">英語学童保育H-CUBEについて</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2640"><a href="https://h-cube.academy/lesson/" class="elementor-item menu-link">レッスン内容</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="https://h-cube.academy/information/" class="elementor-item menu-link">入会案内</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="https://h-cube.academy/school/" class="elementor-item menu-link">各校紹介</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="https://h-cube.academy/faq/" class="elementor-item menu-link">FAQ</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2648"><a href="https://h-cube.academy/wp/about/#kansentaisaku" class="elementor-item elementor-item-anchor menu-link">感染症対策</a></li>
+				<ul id="menu-1-860a59e" class="elementor-nav-menu" data-smartmenus-id="17752873562206187"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2639"><a href="/#reason" aria-current="page" class="elementor-item elementor-item-anchor menu-link">英語学童保育H-CUBEについて</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2640"><a href="/lesson/" class="elementor-item menu-link">レッスン内容</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="/information/" class="elementor-item menu-link">入会案内</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="/school/" class="elementor-item menu-link">各校紹介</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="/faq/" class="elementor-item menu-link">FAQ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2648"><a href="/wp/about/#kansentaisaku" class="elementor-item elementor-item-anchor menu-link">感染症対策</a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
 			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">メニュー</span>
 		</div>
 			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
-				<ul id="menu-2-860a59e" class="elementor-nav-menu" data-smartmenus-id="17752873562203367"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2639"><a href="https://h-cube.academy/#reason" aria-current="page" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">英語学童保育H-CUBEについて</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2640"><a href="https://h-cube.academy/lesson/" class="elementor-item menu-link" tabindex="-1">レッスン内容</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="https://h-cube.academy/information/" class="elementor-item menu-link" tabindex="-1">入会案内</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="https://h-cube.academy/school/" class="elementor-item menu-link" tabindex="-1">各校紹介</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="https://h-cube.academy/faq/" class="elementor-item menu-link" tabindex="-1">FAQ</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2648"><a href="https://h-cube.academy/wp/about/#kansentaisaku" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">感染症対策</a></li>
+				<ul id="menu-2-860a59e" class="elementor-nav-menu" data-smartmenus-id="17752873562203367"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2639"><a href="/#reason" aria-current="page" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">英語学童保育H-CUBEについて</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2640"><a href="/lesson/" class="elementor-item menu-link" tabindex="-1">レッスン内容</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="/information/" class="elementor-item menu-link" tabindex="-1">入会案内</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="/school/" class="elementor-item menu-link" tabindex="-1">各校紹介</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="/faq/" class="elementor-item menu-link" tabindex="-1">FAQ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2648"><a href="/wp/about/#kansentaisaku" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">感染症対策</a></li>
 </ul>			</nav>
 				</div>
 				</div>
@@ -284,7 +286,7 @@ ul.elementor-nav-menu--dropdown a, ul.elementor-nav-menu--dropdown a:focus, ul.e
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-1c4b5d33 elementor-widget elementor-widget-image" data-id="1c4b5d33" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-																<a href="https://h-cube.academy/contact/">
+																<a href="/contact/">
 							<img width="177" height="99" src="/images/home/img_1.svg" class="attachment-large size-large" alt="無料体験ボタン" loading="lazy">								</a>
 															</div>
 				</div>
@@ -306,7 +308,7 @@ ul.elementor-nav-menu--dropdown a, ul.elementor-nav-menu--dropdown a:focus, ul.e
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-37b42a5 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="37b42a5" data-element_type="widget" data-widget_type="theme-site-logo.default">
 				<div class="elementor-widget-container">
-																<a href="https://h-cube.academy">
+																<a href="/">
 							<img width="134" height="134" src="/images/home/img_0.svg" class="attachment-full size-full" alt="" loading="lazy">								</a>
 															</div>
 				</div>
@@ -345,23 +347,23 @@ ul.elementor-nav-menu--dropdown a, ul.elementor-nav-menu--dropdown a:focus, ul.e
 				<div class="elementor-element elementor-element-18c08bfa elementor-nav-menu__align-left elementor-hidden-tablet elementor-hidden-mobile elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="18c08bfa" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 						<nav migration_allowed="1" migrated="0" role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
-				<ul id="menu-1-18c08bfa" class="elementor-nav-menu" data-smartmenus-id="1775287356221617"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2639"><a href="https://h-cube.academy/#reason" aria-current="page" class="elementor-item elementor-item-anchor menu-link">英語学童保育H-CUBEについて</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2640"><a href="https://h-cube.academy/lesson/" class="elementor-item menu-link">レッスン内容</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="https://h-cube.academy/information/" class="elementor-item menu-link">入会案内</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="https://h-cube.academy/school/" class="elementor-item menu-link">各校紹介</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="https://h-cube.academy/faq/" class="elementor-item menu-link">FAQ</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2648"><a href="https://h-cube.academy/wp/about/#kansentaisaku" class="elementor-item elementor-item-anchor menu-link">感染症対策</a></li>
+				<ul id="menu-1-18c08bfa" class="elementor-nav-menu" data-smartmenus-id="1775287356221617"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2639"><a href="/#reason" aria-current="page" class="elementor-item elementor-item-anchor menu-link">英語学童保育H-CUBEについて</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2640"><a href="/lesson/" class="elementor-item menu-link">レッスン内容</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="/information/" class="elementor-item menu-link">入会案内</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="/school/" class="elementor-item menu-link">各校紹介</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="/faq/" class="elementor-item menu-link">FAQ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2648"><a href="/wp/about/#kansentaisaku" class="elementor-item elementor-item-anchor menu-link">感染症対策</a></li>
 </ul>			</nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
 			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">メニュー</span>
 		</div>
 			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true">
-				<ul id="menu-2-18c08bfa" class="elementor-nav-menu" data-smartmenus-id="17752873562223699"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2639"><a href="https://h-cube.academy/#reason" aria-current="page" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">英語学童保育H-CUBEについて</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2640"><a href="https://h-cube.academy/lesson/" class="elementor-item menu-link" tabindex="-1">レッスン内容</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="https://h-cube.academy/information/" class="elementor-item menu-link" tabindex="-1">入会案内</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="https://h-cube.academy/school/" class="elementor-item menu-link" tabindex="-1">各校紹介</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="https://h-cube.academy/faq/" class="elementor-item menu-link" tabindex="-1">FAQ</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2648"><a href="https://h-cube.academy/wp/about/#kansentaisaku" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">感染症対策</a></li>
+				<ul id="menu-2-18c08bfa" class="elementor-nav-menu" data-smartmenus-id="17752873562223699"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-2639"><a href="/#reason" aria-current="page" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">英語学童保育H-CUBEについて</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2640"><a href="/lesson/" class="elementor-item menu-link" tabindex="-1">レッスン内容</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a href="/information/" class="elementor-item menu-link" tabindex="-1">入会案内</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2782"><a href="/school/" class="elementor-item menu-link" tabindex="-1">各校紹介</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-699"><a href="/faq/" class="elementor-item menu-link" tabindex="-1">FAQ</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2648"><a href="/wp/about/#kansentaisaku" class="elementor-item elementor-item-anchor menu-link" tabindex="-1">感染症対策</a></li>
 </ul>			</nav>
 				</div>
 				</div>
@@ -426,6 +428,37 @@ ul.elementor-nav-menu--dropdown a, ul.elementor-nav-menu--dropdown a:focus, ul.e
 <div class="ast-container">
 <div id="primary" class="content-area primary">
 <main id="main" class="site-main">
+
+{pageTitle && (
+  <div data-elementor-type="single-page" data-elementor-id="410" class="elementor elementor-410 elementor-location-single">
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-1638b0d she-header-yes elementor-section-boxed elementor-section-height-min-height elementor-section-height-default elementor-section-items-middle" data-id="1638b0d" data-element_type="section">
+      <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-widget elementor-widget-heading elementor-page-title">
+              <div class="elementor-widget-container">
+                <h1 class="elementor-heading-title elementor-size-default">{pageTitle}</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-2c749af elementor-section-boxed elementor-section-height-default" data-id="2c749af" data-element_type="section">
+      <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column">
+          <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-element elementor-widget elementor-widget-breadcrumbs">
+              <div class="elementor-widget-container">
+                <p id="breadcrumbs"><span><span><a href="/">ホーム</a> » <span class="breadcrumb_last" aria-current="page">{pageTitle}</span></span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+)}
 
 <slot />
 
@@ -1287,12 +1320,61 @@ ul.elementor-nav-menu--dropdown a, ul.elementor-nav-menu--dropdown a:focus, ul.e
 
 </div><!-- .hfeed.site#page -->
 
+<!-- カスタムモバイルメニュー（Elementorポップアップ代替） -->
+<div id="hcube-mobile-menu" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;background:#fff;">
+  <div style="background:#dc0461;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;">
+    <a href="/"><img src="/images/home/img_0.svg" alt="H-CUBE ACADEMY" style="height:50px;"></a>
+    <button id="hcube-mobile-menu-close" aria-label="閉じる" style="background:none;border:none;cursor:pointer;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+        <line x1="5" y1="5" x2="25" y2="25" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="25" y1="5" x2="5" y2="25" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
+  <nav style="padding:20px;">
+    <ul style="list-style:none;margin:0;padding:0;">
+      <li style="border-bottom:1px solid #eee;"><a href="/#reason" style="display:block;padding:16px 8px;color:#333;text-decoration:none;font-size:15px;">英語学童保育H-CUBEについて</a></li>
+      <li style="border-bottom:1px solid #eee;"><a href="/lesson/" style="display:block;padding:16px 8px;color:#333;text-decoration:none;font-size:15px;">レッスン内容</a></li>
+      <li style="border-bottom:1px solid #eee;"><a href="/information/" style="display:block;padding:16px 8px;color:#333;text-decoration:none;font-size:15px;">入会案内</a></li>
+      <li style="border-bottom:1px solid #eee;"><a href="/school/" style="display:block;padding:16px 8px;color:#333;text-decoration:none;font-size:15px;">各校紹介</a></li>
+      <li style="border-bottom:1px solid #eee;"><a href="/faq/" style="display:block;padding:16px 8px;color:#333;text-decoration:none;font-size:15px;">FAQ</a></li>
+      <li style="border-bottom:1px solid #eee;"><a href="/wp/about/#kansentaisaku" style="display:block;padding:16px 8px;color:#333;text-decoration:none;font-size:15px;">感染症対策</a></li>
+    </ul>
+    <div style="margin-top:24px;text-align:center;">
+      <a href="/contact/" style="display:inline-block;background:#dc0461;color:#fff;padding:12px 32px;border-radius:24px;text-decoration:none;font-size:14px;">無料体験申込・お問い合わせ</a>
+    </div>
+  </nav>
+</div>
+
 <script>
-// Elementor popup menu (hamburger) — popup ID 357
-// ハンバーガーアイコンは href="#elementor-action:action=popup:open&settings=eyJpZCI6IjM1NyIsInRvZ2dsZSI6ZmFsc2V9"
-// Elementorのポップアップ機能なのでvanilla JSで代替
-const popupOverlay = document.querySelector('#elementor-popup-modal-357 .dialog-lightbox-overlay');
-const popupClose = document.querySelector('#elementor-popup-modal-357 .dialog-lightbox-close-button');
+// カスタムモバイルメニュー — Elementorポップアップ(ID:357)の代替
+const mobileMenu = document.getElementById('hcube-mobile-menu');
+const mobileMenuClose = document.getElementById('hcube-mobile-menu-close');
+
+// ハンバーガーアイコンクリック（elementor-action リンクをフック）
+document.querySelectorAll('a[href*="elementor-action"]').forEach(btn => {
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (mobileMenu) mobileMenu.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  });
+});
+
+// 閉じるボタン
+if (mobileMenuClose) {
+  mobileMenuClose.addEventListener('click', () => {
+    if (mobileMenu) mobileMenu.style.display = 'none';
+    document.body.style.overflow = '';
+  });
+}
+
+// メニュー内リンクをクリックしたら閉じる
+mobileMenu?.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    if (mobileMenu) mobileMenu.style.display = 'none';
+    document.body.style.overflow = '';
+  });
+});
 
 // スムーズスクロール
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {

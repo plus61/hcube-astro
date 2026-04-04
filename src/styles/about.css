@@ -1,0 +1,41 @@
+/* === Style block 18 === */
+.elementor-402 .elementor-element.elementor-element-160affe > .elementor-container { max-width: 1000px; }
+.elementor-402 .elementor-element.elementor-element-160affe:not(.elementor-motion-effects-element-type-background), .elementor-402 .elementor-element.elementor-element-160affe > .elementor-motion-effects-container > .elementor-motion-effects-layer { background-color: rgb(255, 255, 255); }
+.elementor-402 .elementor-element.elementor-element-160affe { transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; padding: 60px 0px; }
+.elementor-402 .elementor-element.elementor-element-160affe > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-402 .elementor-element.elementor-element-8c82067 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) { margin-bottom: 30px; }
+.elementor-402 .elementor-element.elementor-element-8c82067 > .elementor-element-populated { transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; }
+.elementor-402 .elementor-element.elementor-element-8c82067 > .elementor-element-populated > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-402 .elementor-element.elementor-element-21e2a37 { text-align: center; }
+.elementor-402 .elementor-element.elementor-element-21e2a37 .elementor-heading-title { color: rgb(220, 4, 97); font-family: Roboto, sans-serif; font-weight: 600; line-height: 38px; }
+.elementor-402 .elementor-element.elementor-element-21e2a37 > .elementor-widget-container { margin: 0px; padding: 0px; }
+.elementor-402 .elementor-element.elementor-element-a0eacf3 > .elementor-container { max-width: 1000px; }
+.elementor-402 .elementor-element.elementor-element-a0eacf3:not(.elementor-motion-effects-element-type-background), .elementor-402 .elementor-element.elementor-element-a0eacf3 > .elementor-motion-effects-container > .elementor-motion-effects-layer { background-color: rgb(255, 255, 255); }
+.elementor-402 .elementor-element.elementor-element-a0eacf3 { transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; padding: 60px 0px; }
+.elementor-402 .elementor-element.elementor-element-a0eacf3 > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-402 .elementor-element.elementor-element-1b2961e > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) { margin-bottom: 30px; }
+.elementor-402 .elementor-element.elementor-element-1b2961e > .elementor-element-populated { transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; }
+.elementor-402 .elementor-element.elementor-element-1b2961e > .elementor-element-populated > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-402 .elementor-element.elementor-element-dff68cc { text-align: center; }
+.elementor-402 .elementor-element.elementor-element-dff68cc .elementor-heading-title { color: rgb(220, 4, 97); }
+.elementor-402 .elementor-element.elementor-element-dff68cc > .elementor-widget-container { margin: 0px; padding: 0px; }
+.elementor-402 .elementor-element.elementor-element-222a8aa:not(.elementor-motion-effects-element-type-background), .elementor-402 .elementor-element.elementor-element-222a8aa > .elementor-motion-effects-container > .elementor-motion-effects-layer { background-color: rgb(220, 7, 101); }
+.elementor-402 .elementor-element.elementor-element-222a8aa { transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; }
+.elementor-402 .elementor-element.elementor-element-222a8aa > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-402 .elementor-element.elementor-element-dc7fcd7 { text-align: center; }
+.elementor-402 .elementor-element.elementor-element-dc7fcd7 .elementor-heading-title { color: rgb(255, 255, 255); font-family: Lato, sans-serif; font-size: 18px; font-weight: 600; }
+.elementor-402 .elementor-element.elementor-element-aed2985 { border-style: solid; border-width: 0px 1px; border-color: rgb(220, 7, 101); transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; }
+.elementor-402 .elementor-element.elementor-element-aed2985, .elementor-402 .elementor-element.elementor-element-aed2985 > .elementor-background-overlay { border-radius: 0px; }
+.elementor-402 .elementor-element.elementor-element-aed2985 > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-402 .elementor-element.elementor-element-9e4b1d0 > .elementor-element-populated { padding: 30px 30px 10px; }
+.elementor-402 .elementor-element.elementor-element-742472c { padding: 0px; }
+.elementor-402 .elementor-element.elementor-element-cf531ee > .elementor-element-populated { padding: 0px; }
+.elementor-402 .elementor-element.elementor-element-e2468d4 img { width: 100%; }
+@media (max-width: 767px) {
+  .elementor-402 .elementor-element.elementor-element-160affe { padding: 0px 0px 30px; }
+  .elementor-402 .elementor-element.elementor-element-a0eacf3 { padding: 0px; }
+}
+.elementor-402 .elementor-element.elementor-element-21e2a37::before { content: ""; position: absolute; left: 50%; bottom: -10px; display: inline-block; width: 50px; height: 2px; transform: translate(-50%); background-color: rgb(220, 4, 97); }
+.elementor-402 .elementor-element.elementor-element-dff68cc::before { content: ""; position: absolute; left: 50%; bottom: -10px; display: inline-block; width: 50px; height: 2px; transform: translate(-50%); background-color: rgb(220, 4, 97); }
+
+

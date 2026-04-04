@@ -1,0 +1,40 @@
+/* === Style block 18 === */
+.elementor-653 .elementor-element.elementor-element-80facc6 > .elementor-container { max-width: 800px; }
+.elementor-653 .elementor-element.elementor-element-80facc6:not(.elementor-motion-effects-element-type-background), .elementor-653 .elementor-element.elementor-element-80facc6 > .elementor-motion-effects-container > .elementor-motion-effects-layer { background-color: rgb(255, 255, 255); }
+.elementor-653 .elementor-element.elementor-element-80facc6 { transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; padding: 60px 0px; }
+.elementor-653 .elementor-element.elementor-element-80facc6 > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-653 .elementor-element.elementor-element-f150b66 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) { margin-bottom: 0px; }
+.elementor-653 .elementor-element.elementor-element-f150b66 > .elementor-element-populated { transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; }
+.elementor-653 .elementor-element.elementor-element-f150b66 > .elementor-element-populated > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-653 .elementor-element.elementor-element-913171c { text-align: center; }
+.elementor-653 .elementor-element.elementor-element-913171c .elementor-heading-title { color: rgb(220, 4, 97); }
+.elementor-653 .elementor-element.elementor-element-913171c > .elementor-widget-container { margin: 0px; }
+.elementor-653 .elementor-element.elementor-element-1a1eb51 { border-style: solid; border-width: 2px; border-color: rgb(220, 4, 97); transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; margin-top: 30px; margin-bottom: 0px; padding: 20px; }
+.elementor-653 .elementor-element.elementor-element-1a1eb51, .elementor-653 .elementor-element.elementor-element-1a1eb51 > .elementor-background-overlay { border-radius: 10px; }
+.elementor-653 .elementor-element.elementor-element-1a1eb51 > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-653 .elementor-element.elementor-element-e7dc87d { text-align: center; }
+.elementor-653 .elementor-element.elementor-element-e7dc87d .elementor-heading-title { font-family: Roboto, sans-serif; font-size: 20px; font-weight: 600; }
+.elementor-653 .elementor-element.elementor-element-91bd9f1 .elementor-icon-wrapper { text-align: center; }
+.elementor-653 .elementor-element.elementor-element-91bd9f1 .elementor-icon { font-size: 30px; }
+.elementor-653 .elementor-element.elementor-element-91bd9f1 .elementor-icon i, .elementor-653 .elementor-element.elementor-element-91bd9f1 .elementor-icon svg { transform: rotate(0deg); }
+.elementor-653 .elementor-element.elementor-element-91bd9f1 > .elementor-widget-container { margin: 7px 0px 0px; }
+.elementor-653 .elementor-element.elementor-element-fbf4b8d { border-style: solid; border-width: 2px; border-color: rgb(220, 4, 97); transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; margin-top: 0px; margin-bottom: 0px; padding: 20px; }
+.elementor-653 .elementor-element.elementor-element-fbf4b8d, .elementor-653 .elementor-element.elementor-element-fbf4b8d > .elementor-background-overlay { border-radius: 10px; }
+.elementor-653 .elementor-element.elementor-element-fbf4b8d > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-653 .elementor-element.elementor-element-c5caaeb { text-align: center; }
+.elementor-653 .elementor-element.elementor-element-c5caaeb .elementor-heading-title { font-family: Roboto, sans-serif; font-size: 20px; font-weight: 600; }
+.elementor-653 .elementor-element.elementor-element-6c7d504 .elementor-icon-wrapper { text-align: center; }
+.elementor-653 .elementor-element.elementor-element-6c7d504 .elementor-icon { font-size: 30px; }
+.elementor-653 .elementor-element.elementor-element-6c7d504 .elementor-icon i, .elementor-653 .elementor-element.elementor-element-6c7d504 .elementor-icon svg { transform: rotate(0deg); }
+.elementor-653 .elementor-element.elementor-element-6c7d504 > .elementor-widget-container { margin: 7px 0px 0px; }
+.elementor-653 .elementor-element.elementor-element-df3e4b8 { border-style: solid; border-width: 2px; border-color: rgb(220, 4, 97); transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; margin-top: 0px; margin-bottom: 0px; padding: 20px; }
+.elementor-653 .elementor-element.elementor-element-df3e4b8, .elementor-653 .elementor-element.elementor-element-df3e4b8 > .elementor-background-overlay { border-radius: 10px; }
+.elementor-653 .elementor-element.elementor-element-df3e4b8 > .elementor-background-overlay { transition: background 0.3s, border-radius 0.3s, opacity 0.3s; }
+.elementor-653 .elementor-element.elementor-element-628f934 { text-align: center; }
+.elementor-653 .elementor-element.elementor-element-628f934 .elementor-heading-title { font-family: Roboto, sans-serif; font-size: 20px; font-weight: 600; }
+.elementor-653 .elementor-element.elementor-element-913171c::before { content: ""; position: absolute; left: 50%; bottom: -10px; display: inline-block; width: 50px; height: 2px; transform: translate(-50%); background-color: rgb(220, 4, 97); }
+.elementor-653 .elementor-element.elementor-element-f6a3e44 p { margin-bottom: 0px; }
+.elementor-653 .elementor-element.elementor-element-4260d5c p { margin-bottom: 0px; }
+.elementor-653 .elementor-element.elementor-element-b08b739 p { margin-bottom: 0px; }
+
+

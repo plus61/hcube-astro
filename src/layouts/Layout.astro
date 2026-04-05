@@ -1396,6 +1396,16 @@ if (window.location.hash && !window.location.hash.startsWith('#elementor-action'
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   });
 }
+
+// アコーディオン（faq-box）
+document.querySelectorAll('dl.faq-box dt').forEach(dt => {
+  dt.addEventListener('click', () => {
+    const dd = dt.nextElementSibling;
+    const icon = dt.querySelector('.accordion_icon');
+    if (dd) dd.classList.toggle('open');
+    if (icon) icon.classList.toggle('active');
+  });
+});
 </script>
 
 </body>

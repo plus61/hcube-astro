@@ -256,6 +256,7 @@
 .faq-box dt::before { font-size: 28px; content: counter(count1) ""; color: rgb(220, 4, 97); font-family: "Ropa Sans", sans-serif; position: absolute; top: 50%; left: 20px; transform: translateY(-50%); }
 .faq-box dd::before { }
 .faq-box dd { display: none; padding: 20px; position: relative; box-sizing: border-box; }
+dl.faq-box dd.open { display: block; }
 .faq-box dd .inner-dd { display: flex; }
 .faq-box dd .inner-dd .txt { flex: 1 1 0%; margin-right: 20px; }
 .faq-box dd .inner-dd .img { display: block !important; width: 300px; }

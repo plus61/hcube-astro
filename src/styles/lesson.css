@@ -199,13 +199,6 @@ u { text-decoration: none; background: rgb(248, 201, 221); border: 3px solid rgb
 .faq-box dd .inner-dd .img img { display: block !important; width: 300px; }
 .faq-box dd a { text-decoration: underline; }
 .faq-box dd a:hover { text-decoration: none; }
-.accordion_icon, .accordion_icon span { display: inline-block; transition: 0.4s; box-sizing: border-box; }
-.accordion_icon { position: absolute; width: 40px; height: 40px; top: 50%; right: 10px; transform: translateY(-25%); }
-.accordion_icon span { position: absolute; left: 6px; width: 50%; height: 2px; background-color: rgb(220, 4, 97); border-radius: 4px; z-index: 10; }
-.accordion_icon span:nth-of-type(1) { top: 5px; transform: rotate(0deg); }
-.accordion_icon span:nth-of-type(2) { top: 5px; transform: rotate(90deg); }
-.accordion_icon.active span:nth-of-type(1) { display: none; }
-.accordion_icon.active span:nth-of-type(2) { top: 5px; transform: rotate(180deg); opacity: 1; }
 @media screen and (max-width: 767px) {
   .faq-container { width: 100%; }
   .faq-box { margin-bottom: 5px; }
@@ -219,3 +212,14 @@ u { text-decoration: none; background: rgb(248, 201, 221); border: 3px solid rgb
 .lesson_btn span.small { font-size: 12px; }
 
 
+
+/* === Accordion (faq-box) default closed state === */
+.accordion_icon, .accordion_icon span { display: inline-block; transition: all .4s; box-sizing: border-box; }
+.accordion_icon { position: absolute; width: 40px; height: 40px; top: 50%; right: 10px; transform: translateY(-25%); }
+.accordion_icon span { position: absolute; left: 6px; width: 50%; height: 2px; background-color: #DC0461; border-radius: 4px; z-index: 10; }
+.accordion_icon span:nth-of-type(1) { top: 5px; transform: rotate(0deg); }
+.accordion_icon span:nth-of-type(2) { top: 5px; transform: rotate(90deg); }
+.accordion_icon.active span:nth-of-type(1) { display: none; }
+.accordion_icon.active span:nth-of-type(2) { top: 5px; transform: rotate(180deg); opacity: 1; }
+dl.faq-box dd { display: none; }
+dl.faq-box dd.open { display: block; }

@@ -18,6 +18,39 @@ const {
 } = Astro.props;
 
 const canonicalUrl = canonical || `https://h-cube.academy${Astro.url.pathname}`;
+
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "H-CUBE ACADEMY",
+  "alternateName": "英語学童保育 H-CUBE ACADEMY",
+  "description": "英語を使いながら学び、遊ぶ、3歳から小学校6年生までの英語学童保育施設。茅ヶ崎・藤沢エリアに3校展開。",
+  "url": "https://h-cube.academy",
+  "telephone": "0467-53-8295",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "浜須賀2-16 コンフォールHINOMOTO#2",
+    "addressLocality": "茅ヶ崎市",
+    "addressRegion": "神奈川県",
+    "postalCode": "253-0035",
+    "addressCountry": "JP"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "09:30",
+      "closes": "20:00"
+    }
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "株式会社林水泳教室"
+  },
+  "sameAs": [
+    "https://h-cube.academy/"
+  ]
+};
 ---
 <!DOCTYPE html>
 <html lang="ja">
@@ -27,6 +60,7 @@ const canonicalUrl = canonical || `https://h-cube.academy${Astro.url.pathname}`;
 <title>{title}</title>
 <meta name="description" content={description}>
 <link rel="canonical" href={canonicalUrl}>
+<script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
 <meta property="og:locale" content="ja_JP">
 <meta property="og:type" content="website">
 <meta property="og:title" content={title}>
